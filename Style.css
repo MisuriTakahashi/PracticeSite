@@ -298,3 +298,14 @@ justify-content: space-between;
     font-size: 30px;
     color: white;
 }
+@media only screen and (max-width: 600px) {
+    .TeachersLabel {
+        width: 80%;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .TeachersDiv {
+        height: 1000px;
+    }
+}
