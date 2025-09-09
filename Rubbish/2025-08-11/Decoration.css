@@ -1,0 +1,106 @@
+.TitleDiv {
+
+    margin-top: 20px;
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 60px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.829);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 35%;
+    position: relative;
+}
+.TitleText {
+    font-size: 80%;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+body {
+    background: #05a7f7;
+    background: linear-gradient(90deg,rgba(5, 167, 247, 1) 20%, rgba(75, 83, 227, 1) 63%);
+}
+.LifeBGDiv {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 7.5%;
+    position: relative;
+    width: 85%;
+    border-radius: 40px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.829);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.KidPhoto{
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.829);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.EduDiv {
+        background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 7.5%;
+    position: relative;
+    width: 85%;
+    border-radius: 40px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.829);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+.HighSchoolPhoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.829);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.InterestandpassionsDiv {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 7.5%;
+    position: relative;
+    width: 85%;
+    border-radius: 40px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.829);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+.PassionPhoto {
+    width: 450px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.829);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}

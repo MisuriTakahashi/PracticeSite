@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontPage</title>
+</head>
+<style>
+
+
+@font-face {
+    font-family:'FjallaOne' ;
+    src: url(Fonts/FjallaOne.ttf);}
+@font-face {
+    font-family: 'Lugrasimo';
+    
+    src:url(Fonts/Lugrasimo.ttf);
+}
+    #myDIV {
+  height:70%;
+    margin: 0;
+  position: absolute;
+  top: 63%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  width: 60%;
+
+  padding: 10px;
+}
+#myDIV div {
+  background-color: rgba(59, 245, 152, 0.925);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 50px;
+  
+}
+
+.NavDiv {
+display: flex;
+align-items: center;
+justify-content: space-between;
+  
+}
+.NavBar {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+  background-color: #c47003;
+}
+.NavList {
+    list-style: none;
+    display: inline-block;
+}
+.NavList a{
+    color: white;
+    margin-right: 25px;
+    font-family: 'FjallaOne';
+    font-size: 100%;
+    text-decoration: none;
+}
+
+.TabsDiv {
+    width: 10%;
+    height: 100%;
+    background-color: #c47003;
+    position: fixed;
+    top: 0%;
+    left: 0;
+}
+.Tabs {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 25%;
+    font-family: FjallaOne;}
+    
+    
+
+.TabButtonsText {
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    font-size: 100%;
+    text-decoration: none;
+    padding: 10px;
+    width: 5%;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'FjallaOne';
+    border-radius: 20px;
+}
+.TabButtonsText:hover {
+    background-color: #ffbb00;
+    color: black;
+    
+}
+.TitleText{
+    text-align: center;
+    font-family: 'FjallaOne';
+    font-size: 200%;
+    color: white;
+    padding-top: 20px;  
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid  #c47003;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #c47003;
+}
+
+.searchTerm:focus{
+  color: #000000;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #c47003;
+  background:  #c47003;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+</style>
+<body style="background-color: black;">
+<nav class="NavBar">
+        <div class="NavDiv">
+            <div ></div>
+                <ul>
+                    <li class="NavList"><a href="index.html">Home</a></li>
+                    <li class="NavList"><a href="Tables.html">Contact</a></li>
+                    <li class="NavList"><a href="Form.html">FAQ</a></li>
+                    
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="TitleLearn">
+    <div class="TitleText">
+        <h1 style="color: white; font-family: 'Lugrasimo';">Learn & Explore</h1></div><br>
+        <div class="wrap"> 
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
+        
+</div>
+
+<br>
+    <br>
+    <div id="myDIV">
+	<div class="item1">1</div>
+	<div class="item2">2</div>
+	<div class="item3">3</div>
+	<div class="item4">4</div>
+	<div class="item5">5</div>
+	<div class="item6">6</div>
+</div>
+    <div class="TabsDiv">
+        <div class="Tabs">
+            <ul>
+                <li class="TabButtonsText">Home</li>
+                <li class="TabButtonsText">List</li>
+                <li class="TabButtonsText">Interested</li>
+                <li class="TabButtonsText">Favourites</li>
+            </ul>
+                <br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <ul class="ButtonPostion">
+                <li class="TabButtonsText">Back</li>
+                <li class="TabButtonsText">Next</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
