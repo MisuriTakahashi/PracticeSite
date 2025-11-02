@@ -8,38 +8,55 @@
     <link rel="Stylesheet" href="Style.css">
 </head>
 <body id="FormPageBody" >
-    
-    <form id="Form">
-<div id="FormBG">
-        <div id="FormInfo">
-        <label for="Username" id="FormTXT">Username</label>
-        <input type="text" id="Username" minlength="6" maxlength="15" required placeholder="name"><br>
-        <label for="Password" id="FormTXT">Password</label>
-        <input type="password" id="Password" minlength="6" maxlength="15" required placeholder="Password"><br>
-        <label for="Email" id="FormTXT">Email</label>
-        <input type="email" id="Email" placeholder="Test@gmail.com"><br>
-        <label for="Gender" id="FormTXT">Sex:</label>
-        <label for="Male">Male</label>
-        <input type="radio" id="Male" value="Male" name="Sex">
-        <label for="Female">Female</label>
-        <input type="radio" id="Female" value="Female" name="Sex"><br>
-        <label for="Grade Level" id="FormTXT">Grade Level:</label>
-        <select id="Grade Level">
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-        </select><br>
-        <label for="Birthdate" id="FormTXT">BirthDate:</label>
-        <input type="date" id="BirthDate"><br>
-        </div>
-        <div id="FormButton">
-        <input type="reset">
-        <input type="submit">
-        </div>
-    </form>
-    <a href="index.html">
-    <img src="Buttons/BackButton.png" style="width: 30px;">
+    <div class="FormBox">
+                        <a href="index.html">
+    <img src="Buttons/BackButton.png" style="width: 30px;" id="BackButtonForm">
 </a>
+        <div class="FormContainer">
+            <h1>Enrollment Basic Information</h1><br>
+            <form action="" class="EnrollmentForm">
+                <label for="FullName" id="FormLabel">
+                    Full Name: <br>
+                    <input type="Text" name="FullName" placeholder="Full Name" required maxlength="30" minlength="5" autocomplete="off" id="FullNameInput"><br>
+                </label>
+                <label for="BirthDate" id="FormLabel">
+                    Birth Date: <br>
+                    <input type="date" name="BirthDate" required id="BirthDateInput" ><br>
+                </label>
+                <label for="LRN" id="FormLabel">
+                    LRN: <br>
+                    <input type="number" name="LRN" placeholder="Learner Reference number" required max="12" id="LRNInput"><br>
+                </label>
+                <label for="ContactNumber" id="FormLabel">
+                    Contact Number: <br>
+                    <input type="tel" name="ContactNumber" placeholder="Contact Number" required maxlength="10" id="ContactInput"><br>
+                </label>
+                <label for="GradeLevel" id="FormLabel">
+                    Grade Level: <br>
+                    <select class="DropDownGrade">
+                        <option></option>
+                        <option>Grade 11</option>
+                        <option>Grade 12</option>
+                    </select>
+                    <br>
+                </label>
+                <label for="Email" id="FormLabel"> 
+                    Email: <br>
+                    <input type="email" name="Email" placeholder="Email" required maxlength="30" minlength="10" autocomplete="off" id="EmailInput"><br>
+                </label>
+                <label for="Files" id="FormLabel">
+                    Required Form PDF:
+                    <input type="file" name="FormFile" placeholder="PDF Form File" required>
+                </label><br>
+                <input type="reset" placeholder="Clear" id="Clear" class="ButtonForm"><br>
+                <input type="submit" placeholder="Submit Form" id="Submit" class="ButtonForm">
+            </form>
+
+
+        </div>
+    </div>
+    
+
 
 
 </div>

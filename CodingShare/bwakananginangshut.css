@@ -1,0 +1,32 @@
+.box1{
+  background-color: aqua;
+  border: solid 1px;
+  width: 200;
+  height: 200;
+  position: relative;
+  bottom: 175px;
+  left: 20px;
+  z-index: 3;
+}
+
+.box2{
+  background-color: purple;
+  border: solid 1px;
+  width: 200;
+  height: 200;
+  position: relative;
+  bottom: 175px;
+  left: 20px;
+  z-index: 2;
+}
+
+.box3{
+  background-color: yellow;
+  border: solid 1px;
+  width: 200;
+  height: 200;
+  position: relative;
+  bottom: 300px;
+  left: 100px;
+  z-index: 2;
+}

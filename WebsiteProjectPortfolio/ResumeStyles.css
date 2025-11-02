@@ -1,0 +1,304 @@
+@font-face {
+    font-family:FjallaOne ;
+    src: url(../Fonts/FjallaOne.ttf);
+    font-family: Anton;
+    src: url(../Fonts/Anton.ttf); }
+
+.ProfilePicture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin: 0 auto;
+    display: block;
+}
+.ProfilePicture {
+    background-color: rgba(17, 8, 8, 0.438);
+    height: 35vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+}
+.LeftDiv {
+    background-color: peachpuff;
+    height: 100vh;
+    width: 25%;
+    
+}
+.ProfileName {
+    color: white;
+    font-weight: lighter;
+    font-family: anton;
+    letter-spacing: 2px;
+}
+.ProfileTitle {
+    text-align: center;
+    color: rgb(197, 193, 193);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Information1 {
+    padding-left: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: FjallaOne;
+
+}
+.Information1 p {
+    margin: 10px;
+}
+.ContainerInformation {
+    background-color: rgb(218, 213, 213);
+    height: 100vh;
+    width: 85%;
+    display: flex;
+
+}
+.EducationDiv {
+    border-radius: 15px;
+    border: 3px solid black;
+    height: 50vh;
+    width: 95%;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: anton;
+}
+.SchoolDiv {
+    display: block;
+    position: absolute;
+    
+}
+.SchoolDiv p{
+    margin-bottom: 80px;
+    padding-left: 30px;
+}
+.SchoolName {
+    display: block;
+    position: absolute;
+    left: 50%;
+}
+.SchoolName p {
+    margin-bottom: 80px;
+    
+}
+.GraduateYear {
+    display: block;
+    position: absolute;
+    left: 85%;
+}
+.GraduateYear p {
+    margin-bottom: 80px;
+    
+}
+.SkillsContainer {
+    border-radius: 15px;
+    border: 3px solid black;
+    height: 30vh;
+    width: 32.5%;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: anton;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+
+}
+.RangeDiv1 {
+    display: block;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 175px;
+    height: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+
+}
+.RangePercentage1 {
+    background-color: orange;
+    width: 145px;
+    height: 10px;
+    border-radius: 15px
+}
+.HTMLSKill {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+.RangeDiv2 {
+    display: block;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 175px;
+    height: 10px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.RangePercentage2 {
+    background-color: rgb(0, 89, 255);
+    width: 85px;
+    height: 10px;
+    border-radius: 15px
+}
+.CSSSkill {
+    position: absolute;
+    top: 130px;
+    left: 100px;
+
+}
+.RangeDiv3 {
+    position: absolute;
+    display: block;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 175px;
+    height: 10px;
+    margin-left: 80px;
+    left: 50%;
+    top: 112px;
+}
+.RangePercentage3 {
+    background-color: yellow;
+    width: 15px;
+    height: 10px;
+    border-radius: 15px
+}
+.JavaScriptSkill {
+    position: absolute;
+    top: 70px;
+    left: 65%;
+}
+.RangeDiv4 {
+        position: absolute;
+    display: block;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 175px;
+    height: 10px;
+    margin-left: 80px;
+    left: 50%;
+    top: 172px; 
+}
+.ReactSkill {
+    position: absolute;
+    top: 130px;
+    left: 65%;
+
+}
+.LanguageContainer {
+        border-radius: 15px;
+    border: 3px solid black;
+    height: 30vh;
+    width: 32.5%;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: anton;
+    position: absolute;
+    top: 55%;
+    left: 65%;
+}
+.RangeDiv5 {
+    display: block;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 175px;
+    height: 10px;
+    margin-left: 35%;
+    margin-top: 20px;
+
+}
+.EnglishP {
+    position: absolute;
+    top: 70px;
+    left: 45%;
+    display: block;
+}
+.RangePercentage5 {
+    background-color: rgb(68, 245, 14);
+    width: 150px;
+    height: 10px;
+    border-radius: 15px
+}
+.RangeDiv6 {
+    display: block;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 175px;
+    height: 10px;
+    margin-left: 35%;
+    margin-top: 80px;
+
+}
+.FilipinoP {
+    position: absolute;
+    top: 132px;
+    left: 45%;
+    display: block;
+}
+.RangePercentage6 {
+    background-color: rgb(68, 245, 14);
+    width: 170px;
+    height: 10px;
+    border-radius: 15px;
+}
+.SocialDiv img {
+    height: 50px;
+    margin-top: 15px;
+}
+.SocialDiv {
+    font-family: anton;
+    letter-spacing: 2px;
+    color: white;
+    position: absolute;
+    top: 75%;
+}
+.SocialDiv span {
+    margin-left: 10px;
+}
+.HomeButton {
+    color: white;
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    background-color: peachpuff;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    align-content: center;
+    top: 94%;
+    left: 58%;
+    font-size: 25px;
+    font-family: anton;
+
+}
+a, a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+.HomeButton a {
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out, transform 0.1s ease-in-out;
+}
+.HomeButton a:hover, .HomeButton a:focus {
+    color: black;
+    font-size: 30px;
+}
+.HomeButton a:active {
+    color: #333;
+    transform: scale(0.95);
+    transition: transform 0.1s ease-in-out;
+}

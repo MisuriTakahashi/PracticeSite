@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class Example</title>
+    <link rel="Stylesheet" href="Pseudo.css">
+</head>
+<body>
+    <div class="Header">
+        <ul class="NavBar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vicinity.html">School Vicinity</a></li>
+            <li><a href="Tables.html">Schedule</a></li>
+            <li class="FeedBackDropdown"><a href="Feedback.html" >FeedBack</a>
+            <ul class="DropdownMenu">
+        <li><a href="Feedback.html#general">General Feedback</a></li>
+        <li><a href="Feedback.html#bug">Report a Bug</a></li>
+        <li><a href="Feedback.html#suggestion">Suggestion</a></li>
+    </ul>
+</li>
+            <li><a href="Form.html">Enroll</a></li>
+        </ul>
+
+        
+    </div>
+    <div class="Formbox">
+        <div>
+            <form>
+                <img src="../../Page1/CaisenLogo.png" style=" height: 100px; display: block; margin-left: auto; margin-right: auto; padding-top: 20px;">
+                
+                <h2>Company Login</h2>
+                <div id="Area" style="padding-top: 20px;">
+                    <input id="Username" type="text" name="username" placeholder="Username 4 - 12" required maxlength="12" minlength="4" autocomplete="off">
+                </div>
+                <div style="padding-top: 20px;" id="Area" >
+                    <input id="Password1" type="password" name="password" placeholder="Password 4 - 8" required maxlength="8" minlength="4" autocomplete="off">
+                </div>
+                <div  style="padding-top: 20px;" id="Area">
+                    <input  type="email" name="email" placeholder="Email ( minimum of 10 )"  id="Email" required maxlength="30" minlength="10"  autocomplete="off">
+                </div>
+                <div style="padding-top: 30px;" id="Area">
+                    <button type="submit" id="Login">Login</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

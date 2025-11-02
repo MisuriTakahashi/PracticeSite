@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class Example</title>
+    <style>
+        body {
+            background: #05b5eb;
+            background: linear-gradient(139deg,rgba(5, 181, 235, 1) 20%, rgba(7, 15, 133, 1) 63%);
+            box-sizing: border-box;
+            overflow: hidden;
+            height: 1000px;
+
+        }
+        .Formbox {
+            width: 600px;
+            height: 600px;
+            background: white;
+            margin: 100px auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            position: relative;
+        }
+        h2 {
+            text-align: center;
+            font-family: 'Fjalla One', sans-serif;
+            padding-top: 20px;
+        }
+        #Area {
+            text-align: center;
+        }
+        #Username, #Password1, #Email {
+            width: 250px;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            padding-left: 10px;
+            font-size: 16px;
+        }
+        #Login {
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff;
+            color: white; font-size: 16px;
+            cursor: pointer;
+        }
+        #Login:hover {
+            background-color: #0056b3;
+        }
+        #Login:active {
+            background-color: #003d80;
+        }
+    
+        #Password1:valid {
+            border: 2px solid green;
+        }
+        #Username:valid {
+            border: 2px solid green;
+        }
+        #Email:valid {
+            border: 2px solid green;
+        }
+        #Email:user-invalid {
+            border: 2px solid red;
+        }
+        #Username:focus {
+            border: 2px solid blue;
+            outline: none;
+        }  
+        #Email:focus {
+            border: 2px solid blue;
+            outline: none;
+        }  
+        #Password1:focus {
+            border: 2px solid blue;
+            outline: none;
+        }
+
+        </style>
+</head>
+<body>
+    <div class="Formbox">
+        <div>
+            <form>
+                <h2>Company Login</h2>
+                <div id="Area" style="padding-top: 50px;">
+                    <input id="Username" type="text" name="username" placeholder="Username 4 - 12" required maxlength="12" minlength="4">
+                </div>
+                <div style="padding-top: 20px;" id="Area" >
+                    <input id="Password1" type="password" name="password" placeholder="Password 4 - 8" required maxlength="8" minlength="4">
+                </div>
+                <div  style="padding-top: 20px;" id="Area">
+                    <input  type="email" name="email" placeholder="Email ( minimum of 10 )"  id="Email" required maxlength="30" minlength="10" >
+                </div>
+                <div style="padding-top: 30px;" id="Area">
+                    <button type="submit" id="Login">Login</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
